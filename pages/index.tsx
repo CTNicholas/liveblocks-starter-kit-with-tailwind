@@ -27,6 +27,10 @@ function Feature({ title, description, className, ...props }: FeatureProps) {
 export default function Index() {
   return (
     <MarketingLayout>
+    
+    {/* Testing Tailwind */}
+      <div className="text-red-500 font-bold text-4xl">hello</div>
+      
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
